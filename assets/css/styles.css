@@ -392,7 +392,31 @@ img {
   justify-self: center;
 }
 /*=============== ABOUT ===============*/
+.about__container {
+  row-gap: 4rem;
+}
 
+.about__data {
+  position: relative;
+  text-align: center;
+}
+
+
+.about__description {
+  margin-bottom: 3rem;
+}
+
+.about__breed {
+  position: absolute;
+  width: 60px;
+  bottom: 1rem;
+  right: 0;
+}
+
+.abotu__img {
+  width: 320px;
+  justify-self: center;
+}
 
 /*=============== FAVORITES ===============*/
 
