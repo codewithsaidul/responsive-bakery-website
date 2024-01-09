@@ -222,7 +222,18 @@ img {
 }
 
 /* Add blur header */
-
+.blur-header::after {
+  position: absolute;
+  content: ''; 
+  width: 1000%;
+  height: 100%;
+  background-color: hsl(0, 0, 6%, 0.2);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 
 /* Active link */
 
